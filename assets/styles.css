@@ -1,3 +1,38 @@
-body{
-    background: #1b6dd896;
+body, html {
+    height: 100%;
+  }
+
+body {
+    background: #E4DBDD;
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    margin: 0;
+    color: #fcbf1e;
+}
+
+p{
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+
+#container div{
+    text-align: center;
+}
+
+img{
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+}
+
+#image{
+    text-align: center;
 }
