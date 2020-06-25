@@ -2,12 +2,18 @@ body, html {
     height: 100%;
   }
 
-body {
+#page-one{
+    height: 100%;
+    width: 100%;
     background: #E4DBDD;
-    height: 90%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+#image{
+    height: 75%;
+}
+
+body {
+    margin: 0;
 }
 
 h1 {
