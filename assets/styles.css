@@ -1,9 +1,14 @@
+a{
+    color: #415097;
+  }
+
 body, html {
     height: 100%;
   }
 
 body {
     margin: 0;
+    font-family: 'MuseoModerno', cursive;
 }
 
 #page-one{
@@ -18,12 +23,27 @@ body {
 
 #navbar{
     padding: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar nav a{
+    text-decoration: none;
 }
 
 #navbar nav span img{
     width: 72px;
     height: 72px;
     border-radius: 100%;
+    margin-top: 6px;
+    margin-left: 5%;
+}
+
+#links a{
+    float: right;
+    padding: 27px;
+    font-size: 120%;
 }
 
 h1 {
